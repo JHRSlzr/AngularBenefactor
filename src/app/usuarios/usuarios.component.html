@@ -3,6 +3,6 @@
     <div class="card-body">
       <h5 class="card-title">{{User.id}}||{{User.name|uppercase}}</h5>
       <p class="card-text">{{User.descripcion}}</p>
-      <a *ngIf="onShowButton()" (click)=onSendData() class="btn btn-primary">Pusha aqui</a>
+      <a *ngIf="onShowUser()" (click)=onSendData() class="btn btn-primary">Pusha aqui</a>
     </div>
   </div>

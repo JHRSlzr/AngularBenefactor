@@ -21,7 +21,7 @@ export class UsuariosComponent implements OnInit {
     this.outUser.emit(this.User)
   }
 
-  onShowButton(): boolean {
+  onShowUser(): boolean {
     return Number(this.User.id) % 2 === 1;
   }
 }
